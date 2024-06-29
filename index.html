@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end Developer Portfolio</title>
+    <link rel="stylesheet" href="assign.css">
+</head>
+<body>
+    <nav class="nav-Design"> 
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#contact ">Contact </a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1><span style="color: aqua;">D A V I D </span>S H O T I T</h1>
+            <p>Front-end <span style="color: aqua;">Developer</span></p>
+
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="Home" class="Home">
+        
+        <div  class="right-home">
+            <div class="container">
+                <div class="web-text">
+                   Front-end Developer
+                </div>
+                <div class="name">
+                    <span style="color: aqua;">Temisanren David</span>
+                </div>
+                <p>I'm a passionate front-end developer with expertise in HTML, CSS and JavaScript</p>
+            </div>
+            <div>
+                <button class="butt1">
+                    Learn more
+                </button>
+            </div>
+        </div>
+        <div class="img-part">
+            <img src="DST.jpg" alt="david" width="400px" height="500px">
+             <p></p>
+        </div>
+       
+    </section>
+
+    <!-- About Section -->
+    <section id="About" class="about">
+        <div class="container">
+            <div>
+                <h2 class="about-me"> <span style="color: aqua;">About </span> Me</h2> 
+            </div>
+          
+            <h2><span style="color: aqua;"> Hi, I'm Temisanren David</span>, a<span style="color: aqua;"> Front-end developer</span> driven by a passion for creating seamless and intuitive user experiences. With a strong foundation in <span style="color: aqua;">HTML, CSS, and JavaScript</span>, I specialize in translating design concepts into interactive and responsive web interfaces. Detail-oriented and constantly exploring new technologies, I thrive on turning ideas into dynamic digital solutions that engage and delight users. Let's collaborate to build impactful web experiencesthat leave a lasting impress</h2>
+    </section>      
+            <!-- Project 1 -->
+         <section id="projects">
+            <div class="project">
+                <!-- <img src="project1.jpg" alt="Project 1"> -->
+                <h3 class="project-main"> <span style="color:aqua ;">PROJECTS</span></h3>
+                            <!-- Add more projects -->
+            
+            <div class="container">
+                <div class="calculator">
+                    <form>
+                        
+                            <input type="text" class="input" name="display">
+                        
+                        
+                            <input type="button" value="AC" onclick="display.value = '' " class="operator">
+                            <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0, -1)">
+                            <input type="button" value="." onclick="display.value += '.' " class="operator">
+                            <input type="button" value="/" onclick="display.value += '/' " class="operator">
+                            <input type="button" value="" onclick="display.value += '' " class="operator">
+                            
+                        
+                            <input type="button" value="9" onclick="display.value += '9' ">
+                            <input type="button" value="8" onclick="display.value += '8' ">
+                            <input type="button" value="7" onclick="display.value += '7' ">
+                            <input type="button" value="*" onclick="display.value += '*' " class="operator">
+                            <input type="button" value="+" onclick="display.value += '+' " class="operator">
+                            <input type="button" value="-" onclick="display.value += '-' " class="operator">
+                            <input type="button" value="6" onclick="display.value += '6' ">
+                            <input type="button" value="5" onclick="display.value += '5' ">
+                            <input type="button" value="4" onclick="display.value += '4' ">
+                            <input type="button" value="00" onclick="display.value += '00' ">
+                            <input type="button" value="0" onclick="display.value += '0' ">
+                            <input type="button" value="3" onclick="display.value += '3' ">
+                            <input type="button" value="2" onclick="display.value += '2' ">
+                            <input type="button" value="1" onclick="display.value += '1' ">
+                            
+                            <input type="button" value="=" class="equals" onclick="display.value =eval(display.value)"
+                            class="equal operator">
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                    </form>
+                </div>
+            </div>
+
+
+                <!-- <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+                <a href="project1-demo.html" target="_blank">View Demo</a>
+                <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a> -->
+            </div>
+         </section> 
+         <!-- Skills --> 
+         <section class="skilly">
+            <div class="skill">
+              <h1>My Skill</h1>
+              
+              <li><h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+              </li>
+              <li><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+              </li>
+              <li><h3>REACT</h3>
+                <span class="bar"><span class="react"></span></span>
+              </li>
+              <li><h3>JAVASCRIPT</h3>
+                <span class="bar"><span class="javascript"></span></span>
+              </li>
+            </div>
+            </section>
+            
+        
+        
+        
+         
+
+          
+     
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contacts">
+        <div class="contacts-form">
+            <h2>CONTACT ME</h2>
+
+            <form action="#" class="contactsform">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="Email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Enter Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 D A V I D S H O T I T </p>
+        </div>
+    </footer>
+</body>
+</html>
